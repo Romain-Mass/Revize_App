@@ -18,24 +18,42 @@
         </div>
       </nav>
     </header>
-    <form>
-      <h2>Créer un compte</h2>
-      <div>
-        <label for="first-Name">
-          Prénom
-          <input type="text" name="firstName" id="firstName" />
-        </label>
-        <label for="email">
-          EMAIL
-          <input type="email" name="email" id="email" />
-        </label>
-        <label for="password">
-          Password
-          <input type="password" name="password" id="password" />
-        </label>
-      </div>
-      <button type="submit">Se connecter</button>
-      <a href="/pages/connexion.html">Déjà un compte ?</a>
-    </form>
+    <main>
+      <form>
+        <h2>Créer un compte</h2>
+        <div class="form">
+          <label for="first-Name">
+            Prénom
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Thomas"
+            />
+          </label>
+          <label for="email">
+            EMAIL
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="toto@test.fr"
+            />
+          </label>
+          <label for="password">
+            Password
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Entrer un mot de passe"
+            />
+          </label>
+        </div>
+        <button href="">S'inscrire</button>
+        <a href="/pages/connexion.html">Déjà un compte ?</a>
+      </form>
+    </main>
+    <script src="/JS/inscris.js"></script>
   </body>
 </html>
