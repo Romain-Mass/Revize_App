@@ -11,7 +11,7 @@
     <header>
       <nav aria-label="Navigation principale">
         <div>
-          <img src="/assets/icons/Revize.svg" alt="Icon" />
+          <img src="../assets/icons/Revize.svg" alt="Icon" />
           <a href="#accueil" id="Revize" aria-label="Retour à l'accueil">
             Revize
           </a>
@@ -19,7 +19,7 @@
       </nav>
     </header>
     <main>
-      <form>
+      <form id="inscriptionForm">
         <h2>Créer un compte</h2>
         <div class="form">
           <label for="first-Name">
@@ -29,6 +29,7 @@
               name="firstName"
               id="firstName"
               placeholder="Thomas"
+              required
             />
           </label>
           <label for="email">
@@ -38,6 +39,7 @@
               name="email"
               id="email"
               placeholder="toto@test.fr"
+              required
             />
           </label>
           <label for="password">
@@ -47,13 +49,14 @@
               name="password"
               id="password"
               placeholder="Entrer un mot de passe"
+              required
             />
           </label>
         </div>
-        <button href="">S'inscrire</button>
-        <a href="/pages/connexion.html">Déjà un compte ?</a>
+        <button type="submit">S'inscrire</button>
+        <a href="connexion.html">Déjà un compte ?</a>
       </form>
     </main>
-    <script src="/JS/inscris.js"></script>
+    <script src="./inscris.js" defer></script>
   </body>
 </html>

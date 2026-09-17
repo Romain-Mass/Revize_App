@@ -41,11 +41,11 @@ header nav > div {
   gap: 16px;
 }
 
-form {
+main {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: center;
   align-items: center;
   width: max-content;
   gap: 10px;

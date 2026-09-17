@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/assets/icons/Revize.svg" />
-    <link rel="stylesheet" href="/Styles/Styles4.css" />
     <title>Compte</title>
+    <link rel="stylesheet" href="/Styles/Styles4.css" />
   </head>
   <body>
     <header>
       <nav aria-label="Navigation principale">
         <div>
-          <img src="/assets/icons/Revize.svg" alt="Icon" />
+          <img src="../assets/icons/Revize.svg" alt="Icon" />
           <a href="#accueil" id="Revize" aria-label="Retour à l'accueil">
             Revize
           </a>
@@ -29,8 +29,28 @@
           </li>
         </ul>
 
-        <div class="user"></div>
+        <div class="user" aria-label="Avatar de l'utilisateur">
+          <h2 id="User"></h2>
+        </div>
       </nav>
     </header>
+    <main>
+      <h1>Bienvenue sur ton compte</h1>
+
+      <h2 id="User"></h2>
+
+      <p>Bonjour <span id="userName"></span> !</p>
+
+      <p>
+        Adresse e-mail :
+        <span id="userEmail"></span>
+      </p>
+
+      <button id="logoutButton" type="button">Se déconnecter</button>
+
+      <script src="./compte.js"></script>
+    </main>
+
+    <script src="./compte.js"></script>
   </body>
 </html>
